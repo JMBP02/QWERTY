@@ -1,0 +1,33 @@
+.grid, .grid1, .grid2, .grid3 {
+    display: inline-block;
+    position: relative;
+}
+
+.grid1{
+    margin-left: 10px;
+}
+
+.grid2{
+    margin-left: 20px;
+}
+
+.grid3{
+    margin-left: 100px;
+}
+
+.letter1, .letter2, .letter3, .letter4, .letter5, .letter6, .letter7, .letter8, .letter9, .letter10, .letter11, .letter12, .letter13, .letter14, .letter15, .letter16, .letter17, .letter18, .letter19, .letter20, .letter21, .letter22, .letter23, .letter24, .letter25, .letter26, .space {
+    background-color: gray;
+    color: white;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    border-radius: 20px;
+    transition: transform 0.2s, padding-top 0.2s;
+}
+
+.grid:hover .letter1, .grid:hover .letter2, .grid:hover .letter3, .grid:hover .letter4, .grid:hover .letter5, .grid:hover .letter6, .grid:hover .letter7, .grid:hover .letter8, .grid:hover .letter9, .grid:hover .letter10, .grid1:hover .letter11, .grid:hover .letter12, .grid:hover .letter13, .grid:hover .letter14, .grid:hover .letter15, .grid:hover .letter16, .grid:hover .letter17, .grid:hover .letter18, .grid:hover .letter19, .grid2:hover .letter20, .grid:hover .letter21, .grid:hover .letter22, .grid:hover .letter23, .grid:hover .letter24, .grid:hover .letter25, .grid:hover .letter26, .grid3:hover .space {
+    transform: translateY(200px);
+    padding-top: 0;
+}
